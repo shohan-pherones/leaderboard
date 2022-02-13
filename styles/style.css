@@ -82,3 +82,31 @@ hr{
     color: #562eff;
 
 }
+
+/* courses styles */
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.course-duration{
+    color:deeppink;
+    background-color: rgba(255, 20, 145, 0.2);
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
