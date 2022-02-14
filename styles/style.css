@@ -166,3 +166,16 @@ hr{
         margin: auto;
     }
 }
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses{
+        grid-row-gap: 24px;
+    }
+}
